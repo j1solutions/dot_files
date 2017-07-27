@@ -10,3 +10,5 @@ bindkey "^[<" eval number !echo $WINDOW-1|bc
 bindkey "^[>" eval number !echo $WINDOW+1|bc
 bindkey "^[," prev
 bindkey "^[." next
+#scroll buffer
+termcapinfo xterm ti@:te@
